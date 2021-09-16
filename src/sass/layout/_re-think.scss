@@ -1,0 +1,83 @@
+.re-think-section {
+  padding-bottom: 80px;
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 120px;
+  }
+}
+.re-think-section__img {
+  position: relative;
+  padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    &::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: #f0f4f6;
+      border-radius: 2px;
+      top: -50px;
+      left: -50px;
+      z-index: -1;
+    }
+    width: 50%;
+    padding-bottom: 90px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 120px;
+  }
+}
+.re-think-section__wrapper-text {
+  position: relative;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    padding-left: 50px;
+    text-align: start;
+    padding-bottom: 80px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 80px;
+    padding-bottom: 150px;
+  }
+}
+.re-think-section__title {
+  margin-bottom: 30px;
+}
+.re-think-section__text-bg {
+  position: absolute;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 0.39;
+  left: -8px;
+  top: -26px;
+  z-index: -1;
+  color: #cdd9de;
+  opacity: 0.3;
+  @media screen and (min-width: 768px) {
+    font-size: 85px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 138px;
+  }
+}
+.text-blue {
+  color: #5198b4;
+}
+.re-think-section__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #384f65;
+  margin-bottom: 40px;
+}
+.re-think-section__text-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: #1169b2;
+  &:hover {
+    color: #263546;
+  }
+}

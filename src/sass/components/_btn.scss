@@ -1,0 +1,31 @@
+.btn {
+  background-color: #384f65;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  height: 60px;
+  padding: 5px;
+  position: relative;
+
+  &:hover {
+    background-color: #263546;
+  }
+
+  &::before {
+    position: absolute;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    top: -15px;
+    left: -15px;
+    background: #f0f4f6;
+    border-radius: 2px;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,9 @@
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.42;
+  color: #263546;
+  @media screen and (min-width: 1200px) {
+    font-size: 38px;
+  }
+}

@@ -1,0 +1,101 @@
+.get-in-touch-section {
+  padding-top: 120px;
+}
+.get-in-touch-section__title {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.get-in-touch-section__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  margin-bottom: 53px;
+
+  color: #384f65;
+}
+.form-wrapper {
+  box-shadow: 0px 8px 20px rgba(14, 44, 55, 0.1);
+  border-radius: 4px;
+  padding: 20px 15px 60px;
+  @media screen and (min-width: 768px) {
+    padding: 50px 60px 70px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 60px 125px 70px;
+  }
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  padding: 27px 30px;
+  font-style: normal;
+  color: #111921;
+  border: none;
+  background: #f8f8f8;
+  border-radius: 2px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.textarea {
+  resize: none;
+  height: 120px;
+}
+
+.btn-submit {
+  display: block;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.form__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.form__item-name {
+  @media screen and (min-width: 768px) {
+    width: 33.333%;
+    max-width: 33.3333%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.label-tell {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: 'Phone*';
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #5a5a5a;
+    z-index: 3;
+
+    left: 36px;
+    top: 14px;
+  }
+}
+.form__item-contacts {
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    max-width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.form__item-textarea {
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
